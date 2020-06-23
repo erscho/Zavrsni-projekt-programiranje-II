@@ -15,4 +15,4 @@ Funkcije: sto se nalazi već u online skladištu
 U planu je još dodavanje i desete funkcije koja bi bila brisanje određenog artikla u skladištu. (Za sada ručno ulazim u 
 datoteku koju moj program napravi i ručno izbrišem redove).
 
-Također, volio bih se još pozabaviti sa problematikom "case sensitya" ali sam još u potrazi za rješenjem.
+Matej Ersetic
