@@ -118,6 +118,14 @@ void dodajUSkladiste(int x, FILE *skladiste)
 
 void procitajSkladiste(FILE *skladiste)
 {
+	fseek(skladiste, 0, SEEK_END);
+    int size = ftell(skladiste);
+	if(size == 0){
+		printf("Skladiste je prazno!\n\n");
+		return;
+	}
+	fseek(skladiste, 0, SEEK_SET);
+
 	while (1)
 	{
 		if (feof(skladiste))
